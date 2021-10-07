@@ -32,3 +32,11 @@ Route::get('/post', function () {
 Route::get('/contact', function () {
     return view('layouts.contact');
 })->name('contact');
+
+
+Route::prefix('admin')->group(function(){
+    Route::get('/', function(){
+        return view('admin.index');
+    });
+});
+
