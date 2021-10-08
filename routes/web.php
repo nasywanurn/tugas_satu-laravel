@@ -17,21 +17,21 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return view('layouts.index');
-})->name('index');
+// Route::get('/', function () {
+//     return view('layouts.index');
+// })->name('index');
 
-Route::get('/about', function () {
-    return view('layouts.about');
-})->name('about');
+// Route::get('/about', function () {
+//     return view('layouts.about');
+// })->name('about');
 
-Route::get('/post', function () {
-    return view('layouts.post');
-})->name('post');
+// Route::get('/post', function () {
+//     return view('layouts.post');
+// })->name('post');
 
-Route::get('/contact', function () {
-    return view('layouts.contact');
-})->name('contact');
+// Route::get('/contact', function () {
+//     return view('layouts.contact');
+// })->name('contact');
 
 
 Route::prefix('admin')->group(function(){
